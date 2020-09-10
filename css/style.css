@@ -93,7 +93,9 @@ btn-white:focus {
 animation css
 ======================= */
 
-#home-cover, #home-heading, #home-btn {
+#home-cover,
+#home-heading,
+#home-btn {
     animation-duration: .5s;
 }
 
