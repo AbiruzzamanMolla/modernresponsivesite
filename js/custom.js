@@ -28,3 +28,13 @@ $(document).ready(function(){
         autoplayHoverPause: true
     });
 });
+
+$(document).ready(function(){
+    $("#customers-testimonials").owlCarousel({
+        items: 1,
+        autoplay: true,
+        smartspeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
