@@ -18,7 +18,7 @@ $(document).ready(function(){
 });
 
 // Owl Carousel
-
+// team-members
 $(document).ready(function(){
     $("#team-members").owlCarousel({
         items: 3,
@@ -28,7 +28,7 @@ $(document).ready(function(){
         autoplayHoverPause: true
     });
 });
-
+// testimonials
 $(document).ready(function(){
     $("#customers-testimonials").owlCarousel({
         items: 1,
@@ -36,5 +36,24 @@ $(document).ready(function(){
         smartspeed: 700,
         loop: true,
         autoplayHoverPause: true
+    });
+});
+// clients
+$(document).ready(function(){
+    $("#clients-list").owlCarousel({
+        items: 6,
+        autoplay: true,
+        smartspeed: 700,
+        loop: true,
+        autoplayHoverPause: true
+    });
+});
+
+// stats counterup 
+
+$(document).ready(function(){
+    $('.counter').counterUp({
+        delay: 10,
+        time: 2000
     });
 });
