@@ -113,6 +113,16 @@ btn-blue:focus {
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
 /* =======================
 animation css
 ======================= */
@@ -495,7 +505,7 @@ ul.pricing-spec li p {
 }
 
 /* ===================================================
-                     footer section
+                     Contact section
 ====================================================*/
 
 footer {
@@ -542,4 +552,82 @@ form .form-control {
     padding-top: 8px 16px;
     margin-bottom: 20px;
     color: #fff;
+}
+
+/* ===================================================
+                     Footer section
+====================================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover{
+    color: #34c6d3;
+}
+
+/* ===================================================
+                     Navigation section
+====================================================*/
+ 
+.navbar {
+    padding: 20px 10px !important;
+    transition: all .5s ease-in-out;
+}
+
+.nav-bg-dark {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.nav-navbar {
+    float: right !important;
+}
+.nav-link {
+    color: #fff !important;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+    background: none !important;
+    color: #34c6D3 !important;
+}
+
+.active {
+    color: #34c6D3 !important;
 }

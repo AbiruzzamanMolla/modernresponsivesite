@@ -57,3 +57,32 @@ $(document).ready(function(){
         time: 2000
     });
 });
+
+// navigation 
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() < 50){
+            $('nav').removeClass("nav-bg-dark");
+            $('#back-to-top').fadeOut();
+        } else {
+            $('nav').addClass("nav-bg-dark");
+            $('#back-to-top').fadeIn();
+        }
+    });
+});
+
+// smooth scroll
+$(document).ready(function(){
+    $("a.smooth-scroll").click(function (event) {
+        event.preventDefault();
+
+        // get all section id. Exm. #home #team
+        var section = $(this).attr("href");
+        // console.log(section);
+        $('html, body').animate({
+            scrollTop: $(section).offset().top - 55
+        }, 1250, "easeInOutExpo");
+    });
+});
+
